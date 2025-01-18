@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="scripts.js"></script>
+
+</head>
+<body>
+<!-- Navigation -->
+<nav>
+  <ul>
+    <li><a href=#home>Home</a></li>
+    <li><a href=#about>About Me</a></li>
+    <li><a href=#projects>Projects</a></li>
+    <li><a href=#education>Education & Experience</a></li>
+    <li><a href=#contact>Contact</a></li>
+    <li><a href="blog.html">Blog</a></li>
+  </ul>
+</nav>
+<!-- Home Page -->
+<section id="home">
+  <h1>Portofolio</h1>
+
+</section>
+
+<!-- About Me Page -->
+<section id="about">
+  <h2 >About Me</h2>
+  <p>Jam Andri Shehi, student që më pëlqen programimi dhe teknologjia.</p>
+  <p>Mund te me gjeni ne: <a href="https://www.linkedin.com/in/andri-shehi-786330332/" target="_blank">LinkedIn</a> | <a href="https://github.com/sernamenotavailable" target="_blank">GitHub</a></p>
+  <a href="CV.pdf" download>Download My CV</a>
+</section>
+
+<!-- Projects Page -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+
+    <h3>Projekti im: </h3>
+    <img src="projekt.jpg" alt="Projects" style="width: 500px; height: auto;">
+    <p>Ky kod është një implementim i pjesshëm i një aplikacioni Windows Forms në C#.
+      Ndërfaqja e përdoruesit përbëhet nga një formular (Form1) me elemente ndërfaqeje
+      të ndryshme si butonat, kutitë e tekstit dhe një kontroll DataGridView. Aplikacioni
+      ofron funksionalitet për trajtimin e ngjarjeve të shtypjes së tastit, ngjarjeve të
+      klikimit të butonit, dhe ndryshimeve të zgjedhjes së DataGridView, si dhe validim të
+      të dhënave dhe ndërveprim me ndërfaqen e përdoruesit.</p>
+  </div>
+
+</section>
+
+
+<section id="education">
+  <h2>Education & Experience</h2>
+  <h3>Arsimi</h3>
+  <p>Bachelor ne Computer Science  <a href="https://www.beder.edu.al/">(Beder University</a>)</p>
+</section>
+
+<!-- Contact Page -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Andri Shehi.</p>
+</footer>
+</body>
+</html>
