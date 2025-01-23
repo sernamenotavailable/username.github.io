@@ -17,7 +17,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
   )}`;
 
-  // Open the user's email client
+
   window.location.href = mailtoLink;
 });
 
