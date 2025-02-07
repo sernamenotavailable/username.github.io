@@ -10,14 +10,11 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     return;
   }
 
-
   const mailtoLink = `mailto:shehiandri@gmail.com?subject=Message from ${encodeURIComponent(
     name
   )}&body=${encodeURIComponent(
     `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
   )}`;
 
-
   window.location.href = mailtoLink;
 });
-

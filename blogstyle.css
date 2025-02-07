@@ -11,9 +11,9 @@ body {
 header {
   background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
   color: white;
-  padding: 1rem 0;
+  padding: 16px 0;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -34,13 +34,12 @@ header h1 {
 }
 
 .container img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+  width: 100px;
+  height: auto;
 }
 
 .container p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
   text-align: justify;
 }
 
@@ -65,6 +64,7 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+  color: cadetblue;
 }
 @media (max-width: 768px) {
   header {
